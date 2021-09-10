@@ -1,0 +1,221 @@
+.body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: white;
+}
+.s1 {
+	height: 500px;
+}
+.fl-l {
+	float: left;
+	height: 100%;
+	width: 60%;
+}
+.fl-r {
+	float: right;
+	height: 100%;
+	width: 75%;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-top: 50px;
+	height: 100px;
+}
+.nav__btns {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+}
+.brand__logo {
+	width: 240px;
+	height: 100%;
+}
+.login {
+	border: 0;
+	background-color: white;
+	padding: 10px 30px;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
+.signup {
+	background-color: black;
+	color: white;
+	border: none;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px 30px;
+}
+.p1 {
+	color: black;
+	margin-top: 45px;
+	margin-bottom: 0;
+	font-size: 40px;
+	font-weight: bold;
+}
+.p2 {
+	color: gray;
+	font-size: 24px;
+}
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+.search__box {
+	width: 70%;
+	height: 60px;
+	border:1px solid #ccc;
+	overflow: hidden;
+}
+.search__btn {
+	width: 20%;
+	border: none;
+	background-color: #FC9109;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+.search__input {
+	height: 60px;
+	width: 70%;
+	border: none;
+	padding-left: 20px;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+.locate__me {
+	width: 20%;
+	height: 80%;
+	margin-left: 10px;
+	border: none;
+	color: gray;
+	font-size: 18px;
+	background-color: white;
+	border-radius: 5px;
+	transition: alt 0.5s;
+}
+.locate__me:hover {
+	background-color: #f1f1f1;
+}
+.city {
+	padding-right: 5px;
+	color: black;
+	font-weight: bold;
+}
+.city:nth-of-type(even) {
+	color: gray;
+}
+.left {
+	float: right;
+	width: 40%;
+	margin-top: 0px;
+}
+.brand__img {
+	width: 100%;
+	height: 100%;
+}
+.s2 {
+	height: 400px;
+	width: 100%;
+	background-color: rgb(44,29,23);
+}
+.p4 {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.p5 {
+	color: white;
+	margin: 0 40px;
+	text-align: center;
+}
+.flex-row {
+	justify-content: center;
+}
+.img {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.image {
+	width: 30%;
+	height: 50%;
+}
+.s4 {
+	height: 600px;
+}
+.sec {
+	float: left;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sec1 {
+	float: right;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	position: relative;
+}
+.image1 {
+	height: 500px;
+	width: 300px;
+} 
+.image2 {
+	height: 400px;
+	width: 300px;
+	position: absolute;
+	bottom: 0;
+	right: 1%;
+}
+.sec__s1 {
+	float: right;
+	height: 50%;
+	width: 50%;
+}
+.p6 {
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	bottom: 5px;
+}
+.p7 {
+	color: gray;
+	font-weight: bold;
+	font-size: 18px;
+}
+.google {
+	width: 200px;
+	height: 60px;
+}
+.app {
+	width: 200px;
+	height: 47px;
+}
+.logo {
+	width: 200px;
+	height: 60px;
+}
+.para1 {
+	color: white;
+	font-size: 21px;
+}
+.div1 {
+	width: 200px; 
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center;
+}
+.imgl {
+	width: 24;
+	height: 24;
+}
